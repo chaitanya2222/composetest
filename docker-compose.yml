@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+    DockerFiles2:
+      image: 2fd57734073e
+      ports: 
+        - "5000:5000"
+
+    redis:
+      image: "redis:alpine"
+
+    DockerFiles1:
+        image: ff6308932093
+
+
